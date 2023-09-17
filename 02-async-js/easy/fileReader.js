@@ -10,5 +10,4 @@ function basicFileReader(error, data) {
     } else {
         console.log("Results of reading file : ",data);
     }
-
 }
