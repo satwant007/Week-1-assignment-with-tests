@@ -1,7 +1,7 @@
 const fs = require('fs');
 const filePath = 'exampleFile.txt';
 
-const dataToWrite = 'Version 1.1';
+const dataToWrite = 'Version 1';
 
 fs.writeFile(filePath, dataToWrite, 'utf8', basicFileWriter);
 
